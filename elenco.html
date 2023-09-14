@@ -1,91 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<style>
-  #mostrar {
-    display: none;
-  }
-
-  #passar_mouse:hover #mostrar {
-    display: block;
-  }
-</style>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Breaking Bad Fansite</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/elenco.css">
+  <title>Elenco</title>
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="temporadas.html">Temporadas</a></li>
-        <li><a href="elenco.html">Elenco</a></li>
+        <li class="menu-sup"><a href="index.html">Home</a></li>
+        <li class="menu-sup"><a href="temporadas.html">Temporadas</a></li>
+        <li class="menu-sup"><a href="elenco.html">Elenco</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/walter.png" alt="" />
-      <div id="mostrar">
-        Walter White: Professor de química de ensino médio diagnosticado com
-        câncer no pulmão adenocarcinoma no estágio III, e passa a produzir
-        metanfetamina para garantir o futuro financeiro de sua família.
+    <img src="imagens/logo.png" alt="logo breaking bad">
+    <section>
+      <div class="pers-temp">
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/walter.png" alt="" />
+          <div id="mostrar">
+            <h3> Walter White:</h3>
+            <p>Professor de química de ensino médio diagnosticado com câncer no pulmão adenocarcinoma no estágio III, e passa a produzir metanfetamina para garantir o futuro financeiro de sua família.   </p>      
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/jesse.png" alt="" />
+          <div id="mostrar">
+            <h3>Jesse Pinkman:</h3>
+            <p> Antigo aluno de ensino médio de Walt, e mais tarde, torna-se parceiro de Walter White no tráfico de metanfetamina. Jesse era um pequeno consumidor e traficante de drogas.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/skyler.png" alt="" />
+          <div id="mostrar">
+            <h3>Skyler White:</h3>
+            <p>Esposa de Walter, grávida do segundo filho do casal antes do seu diagnóstico, e que se torna cada vez mais desconfiada do comportamento do marido e do que ele esconde da família.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/gus.png" alt="" />
+          <div id="mostrar">
+            <h3>Gus Fring:</h3>
+            <p> Grande distribuidor de drogas que tem como disfarce uma rede de fast food chamada Los Pollos Hermanos.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/saul.png" alt="" />
+          <div id="mostrar">
+            <h3>Saul Goodman:</h3>
+            <p>Advogado desvirtuado que representa Walt e Jesse.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/hank.png" alt="" />
+          <div id="mostrar">
+            <h3>Hank Schrader:</h3>
+            <p> Marido de Marie, cunhado de Walter e Skyler e agente do DEA.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/marie.png" alt="" />
+          <div id="mostrar">
+            <h3>Marie Schrader:</h3>
+            <p> Irmã de Skyler e esposa cleptomaníaca de Hank.
+            </p>
+          </div>
+        </div>
+        <div class="personagem" id="passar_mouse">
+          <img src="imagens/elenco/mike.png" alt="" />
+          <div id="mostrar">
+            <h3> Mike Ehrmantraut:</h3>
+            <p> Trabalha para Gus como faxineiro e assassino de aluguel e também para Saul como investigador particular.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/jesse.png" alt="" />
-      <div id="mostrar">
-        Jesse Pinkman:
-        Antigo aluno de ensino médio de Walt, e mais tarde, torna-se parceiro de Walter White no tráfico de metanfetamina.Jesse era um pequeno consumidor e traficante de drogas.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/skyler.png" alt="" />
-      <div id="mostrar">
-        Skyler White:
-        Esposa de Walter, grávida do segundo filho do casal antes do seu diagnóstico, e que se torna cada vez mais desconfiada do comportamento do marido e do que ele esconde da família.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/gus.png" alt="" />
-      <div id="mostrar">
-        Gus Fring:
-        Grande distribuidor de drogas que tem como disfarce uma rede de fast food chamada Los Pollos Hermanos.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/saul.png" alt="" />
-      <div id="mostrar">
-        Saul Goodman:
-        Advogado desvirtuado que representa Walt e Jesse.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/hank.png" alt="" />
-      <div id="mostrar">
-        Hank Schrader:
-        Marido de Marie, cunhado de Walter e Skyler e agente do DEA.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/marie.png" alt="" />
-      <div id="mostrar">
-        Marie Schrader:
-        Irmã de Skyler e esposa cleptomaníaca de Hank.
-      </div>
-    </div>
-    <div id="passar_mouse">
-      <img src="imagens/elenco/mike.png" alt="" />
-      <div id="mostrar">
-        Mike Ehrmantraut:
-        Trabalha para Gus como faxineiro e assassino de aluguel e também para Saul como investigador particular.
-      </div>
-    </div>
+    </section>
   </main>
-</body>
+  </body>
 <footer>
   <img src="icones/whatsapp-branco.png" alt="icone whatsapp-branco" />
   <img src="icones/linkedin-branco.png" alt="icone linkedin-branco" />

@@ -1,0 +1,97 @@
+body {
+    background-image: url("../imagens/bg.png");
+    background-color: #000;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 19px;
+    color: #ffff;
+    font-family: 'roboto';
+}
+
+
+ul{
+    display: flex; 
+    justify-content: center;    
+}
+
+.menu-sup{
+    list-style-type: none;
+    margin: 0 70px;
+    position: relative;
+    padding: 5px 30px;
+    border: none;
+    background: #000;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.menu-sup:before {
+    content: '';
+    background: linear-gradient(65deg, #00fff0, #00d124, #ffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition:  opacity .3s ease-in-out;
+    border-radius: 30px;
+}
+
+.menu-sup:hover:before {
+    opacity: 1;
+}
+  
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+main {
+
+    text-align: center;
+}
+
+.pers-temp{
+    margin: 80px 180px;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pers-temp p{
+    width: 240px;
+    height: 150px;
+    letter-spacing: 1px;
+}
+
+.pers-temp  > * {
+    padding: 1rem;
+}
+
+.personagem{
+    text-align: justify;
+    width: 350px;
+    height: 550px;
+}
+
+#mostrar {
+    display: none;
+}
+
+#passar_mouse:hover #mostrar {
+    display: block;
+}
+
+footer{
+    display: flex; 
+    justify-content: center; 
+}
+
+footer img{
+    margin: 15px;
+}
