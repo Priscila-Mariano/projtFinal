@@ -16,6 +16,11 @@ ul{
     justify-content: center;    
 }
 
+li img{
+   background-color: rgb(3, 128, 87);
+   width: 18px; 
+}
+
 .menu-sup{
     list-style-type: none;
     margin: 0 70px;
@@ -56,21 +61,25 @@ a {
     color: #ffff;
 }
 
-.epi-temp{
-    margin: 150px;
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+.info h1{
+    padding: 80px;
 }
 
-.epi-temp  > * {
-    padding:1rem;
+.card {
+    background-color: #000;
+    margin: 0 50px;
 }
 
-.item-epi{
-    text-align: justify;
-    width: 350px;
+.card-title {
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 40px;
 }
+
+.card-body{
+    text-align: start;
+}
+
 
 footer{
     display: flex; 

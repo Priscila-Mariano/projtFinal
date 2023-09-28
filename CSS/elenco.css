@@ -16,6 +16,12 @@ ul{
     justify-content: center;    
 }
 
+li img{
+    background-color: rgb(3, 128, 87);
+    width: 18px; 
+}
+
+
 .menu-sup{
     list-style-type: none;
     margin: 0 70px;
