@@ -62,6 +62,27 @@ main {
     text-align: center;
 }
 
+main .frase {
+    margin-top: 45px;
+    font-size: 1.7rem; 
+}
+
+main .frase:after{
+    content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 4px;
+    height: 25px;
+    width: 3px;
+    animation: ponteiro 0.5s infinite;
+}
+
+/* efeito de piscar */
+@keyframes ponteiro {
+    29% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
 .pers-temp{
     margin: 80px 180px;
     display: grid;
