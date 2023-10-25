@@ -10,7 +10,6 @@ body {
     font-family: 'roboto';
 }
 
-
 ul{
     display: flex; 
     justify-content: center;    
@@ -20,7 +19,6 @@ li img{
     background-color: rgb(3, 128, 87);
     width: 18px; 
 }
-
 
 .menu-sup{
     list-style-type: none;
@@ -74,7 +72,7 @@ main .frase:after{
     margin-left: 4px;
     height: 25px;
     width: 3px;
-    animation: ponteiro 0.5s infinite;
+    animation: ponteiro 0.5s infinite; 
 }
 
 /* efeito de piscar */
@@ -83,6 +81,10 @@ main .frase:after{
     100% { opacity: 0; }
 }
 
+main .autor {
+    margin-top: 45px;
+    font-size: 1.7rem; 
+}
 .pers-temp{
     margin: 80px 180px;
     display: grid;
